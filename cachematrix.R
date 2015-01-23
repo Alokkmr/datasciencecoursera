@@ -33,5 +33,6 @@ cacheSolve <- function(x, ...) {
       m <- solve(dat, ...)
       x$setsolv(m)
       m
-        ## m is inverse of matrix x. Prints it and stores it in cache
+## m is inverse of matrix x. Prints it and stores it in cache
+## only works for a 2x2 matrix 
 }
